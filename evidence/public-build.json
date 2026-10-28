@@ -1,0 +1,104 @@
+{
+  "passed": true,
+  "source_units": 63,
+  "upstream_files": 146,
+  "offline": true,
+  "engine_rebuilt": true,
+  "package_engine_sha256": "1a0754e12f32c6a8e72b75c4f5968e0534037bd7f31e09702e0bafdd11d07561",
+  "binary_sha256": "e87c64df1090096cd0c95a2ca36b736f19dff39713391aae5660943ea6941b94",
+  "bit_identical_claim": false,
+  "build_script_sha256": "8da03220d0cedd1a418ea58edc634ec21c8eaeb572aa78908e382d2ffc2db2b9",
+  "source_plan_sha256": "cf419c4c8ae07c0576a959090503a292b767a60d91c24682a845bcb23a0bf65c",
+  "audio_VRP_workaround_per_TU": true,
+  "compile_and_link_commands": 64,
+  "elf": {
+    "ISA": "MIPS32r2",
+    "ABI": "o32 hard-float musl",
+    "loader": "/lib/ld-musl-mipsel.so.1",
+    "needed": [
+      "libSDL2-2.0.so.0",
+      "libatomic.so.1",
+      "libc.so"
+    ]
+  },
+  "synthetic_cases": [
+    {
+      "name": "version",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "selftest",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "check-synthetic",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-first",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-cached",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-remount-seal",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-remount-identity",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-failure",
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "name": "prepare-retry",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "prepare-cancel",
+      "exit_code": 130,
+      "expected": 130
+    },
+    {
+      "name": "full-loop",
+      "exit_code": 0,
+      "expected": 0
+    },
+    {
+      "name": "missing-data",
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "name": "malformed-wad",
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "name": "bad-atlas",
+      "exit_code": 1,
+      "expected": 1
+    },
+    {
+      "name": "missing-grid-launch",
+      "exit_code": 66,
+      "expected": 66
+    }
+  ],
+  "selftest_checks": 80,
+  "new_gameplay_test": false,
+  "SDK_modified": false
+}

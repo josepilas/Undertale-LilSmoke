@@ -1,0 +1,125 @@
+{
+  "passed": true,
+  "ram_mib": 128,
+  "app_address_limit_mib": 112,
+  "cpu": "74Kf",
+  "cpus": 1,
+  "gpu_3d": false,
+  "physical_hardware": false,
+  "cache_filesystem": "fat32",
+  "cache_remount_verified": true,
+  "audio_requested": true,
+  "audio_frames": 229376,
+  "nonzero_pcm_frames": 108542,
+  "owner_original_unchanged": true,
+  "owner_wad_and_oggs_unchanged": true,
+  "sd_touched": false,
+  "cases": [
+    {
+      "name": "first",
+      "exit_code": 0,
+      "elapsed_seconds": 70.07,
+      "peak_as_kib": 99592,
+      "peak_rss_kib": 47340
+    },
+    {
+      "name": "cached",
+      "exit_code": 0,
+      "elapsed_seconds": 0.87,
+      "peak_as_kib": 5144,
+      "peak_rss_kib": 1712
+    },
+    {
+      "name": "runtime",
+      "exit_code": 0,
+      "elapsed_seconds": 18.02,
+      "peak_as_kib": 83868,
+      "peak_rss_kib": 21712
+    }
+  ],
+  "binary_sha256": "1a0754e12f32c6a8e72b75c4f5968e0534037bd7f31e09702e0bafdd11d07561",
+  "qualified_unstripped_sha256": "1ed06162afb1c593776d723870499a98ceeefac5c5c72e4c16d3a8be905619f4",
+  "evidence_reused": true,
+  "new_gameplay_test_claimed": false,
+  "synthetic": {
+    "passed": true,
+    "cases": [
+      {
+        "name": "version",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "selftest",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "check-synthetic",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-first",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-cached",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-remount-seal",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-remount-identity",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-failure",
+        "exit_code": 1,
+        "expected": 1
+      },
+      {
+        "name": "prepare-retry",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "prepare-cancel",
+        "exit_code": 130,
+        "expected": 130
+      },
+      {
+        "name": "full-loop",
+        "exit_code": 0,
+        "expected": 0
+      },
+      {
+        "name": "missing-data",
+        "exit_code": 1,
+        "expected": 1
+      },
+      {
+        "name": "malformed-wad",
+        "exit_code": 1,
+        "expected": 1
+      },
+      {
+        "name": "bad-atlas",
+        "exit_code": 1,
+        "expected": 1
+      },
+      {
+        "name": "missing-grid-launch",
+        "exit_code": 66,
+        "expected": 66
+      }
+    ]
+  },
+  "previous_package_sha256": "93c167251341dbbd3d0cdc979eb1600568bdebf8bdc1d070f602c62a8341cc3e"
+}

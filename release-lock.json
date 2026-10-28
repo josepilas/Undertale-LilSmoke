@@ -1,0 +1,9 @@
+{
+  "public_version": "0.0.1",
+  "internal_engine_version": "0.1.0",
+  "files": {
+    "bin/froggytale-lilsmoke": "1a0754e12f32c6a8e72b75c4f5968e0534037bd7f31e09702e0bafdd11d07561",
+    "lib/libSDL2-2.0.so.0": "29e84ef4d88c3d1d8d30327d342a9b77de94079e43e1588bace6c8bcbb18fd5a",
+    "lib/libatomic.so.1": "90c0e51afbd6abf91121c5337b9fa5015ffe6cbeb7800472ee48e6f6ed1e82a4"
+  }
+}

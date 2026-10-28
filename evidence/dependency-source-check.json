@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "configure_only": true,
+  "libatomic_source_closure_configures": true,
+  "SDL2_source_closure_configures": true,
+  "SDL2_profile": "source-completeness check, video/audio disabled; not production backend qualification",
+  "dependency_binaries_rebuilt": false,
+  "SDK_modified": false
+}

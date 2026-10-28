@@ -1,0 +1,309 @@
+{
+  "flags": [
+    "-std=gnu99",
+    "-O2",
+    "-fno-strict-aliasing",
+    "-fwrapv",
+    "-mips32r2",
+    "-mabi=32",
+    "-mfp32",
+    "-mhard-float",
+    "-ffunction-sections",
+    "-fdata-sections",
+    "-DENABLE_WAD16",
+    "-DDISABLE_WAD14",
+    "-DDISABLE_WAD17",
+    "-DENABLE_SW_RENDERER",
+    "-DBUTTERSCOTCH_VIDEO_NULL=1",
+    "-DDISABLE_VM_GML_PROFILER",
+    "-DDISABLE_VM_OPCODE_PROFILER",
+    "-DDISABLE_VM_STUB_LOGS",
+    "-DDISABLE_VM_TRACING",
+    "-DDISABLE_SPATIAL_GRID_LOGS",
+    "-DDISABLE_VM_EXCEPTIONS_LOGS",
+    "-DBUTTERSCOTCH_COMMIT_HASH=\"5699418-lilsmoke\"",
+    "-DBUTTERSCOTCH_COMMIT_DATE=\"2026-10-27\"",
+    "-D_POSIX_C_SOURCE=200809L",
+    "-D_DEFAULT_SOURCE"
+  ],
+  "sources": [
+    {
+      "path": "src/binary_reader.c",
+      "sha256": "7d5f69e15acfb516d061ba1c753934a0156dfa0077c701506c0b73d86456941b"
+    },
+    {
+      "path": "src/data_win.c",
+      "sha256": "e7d041ff41efbf6421ad476a73d8c7ba74be4145d7646b7cfe26e0e3d97d8a74"
+    },
+    {
+      "path": "src/data_win_print.c",
+      "sha256": "d3254a07fa5b563f2cd0136fe71cdb4aba2e0a33658ebd4f0a1781f63eb19f62"
+    },
+    {
+      "path": "src/debug_overlay.c",
+      "sha256": "3179c127c38a6bd9d50e1b13d1f3124746c1f7928562325b8225105b3b964b48"
+    },
+    {
+      "path": "src/event_table.c",
+      "sha256": "d0e38f7df494cdc07866f4a4adaaf97072d53aa03c887ee9a60b27a3d260cdf3"
+    },
+    {
+      "path": "src/gettime.c",
+      "sha256": "d84120cd2b434635e16a0e09d483b7aeeaef140bda63ecce856b2b97f52e6964"
+    },
+    {
+      "path": "src/gml_array.c",
+      "sha256": "c04ea77af6e4f1ab7c62275870a0b97108a1bfbd644fa9953613ae2ee839fe43"
+    },
+    {
+      "path": "src/gml_method.c",
+      "sha256": "1723ecb83235994eb1d1c3ce428c8eb1e9a5fb2aa952e78d808a7034ff16679e"
+    },
+    {
+      "path": "src/ini.c",
+      "sha256": "8765836dab51119dfd76ab959c6171b1a171ff5112ac58d54f57823212f1e09f"
+    },
+    {
+      "path": "src/input_recording.c",
+      "sha256": "3268d14c338ae516a7821aa466da0ffa786f92386214c6a78522ef0a0ba2ce6f"
+    },
+    {
+      "path": "src/instance.c",
+      "sha256": "59162df19208904671c439600d55054807cb212c8db18b6e5f51f2896f385847"
+    },
+    {
+      "path": "src/int_int_hashmap.c",
+      "sha256": "a058fd76a9849e0a1506bb8cfad2c6a951b6830f940ea4c5c2b3ed389ebd84e5"
+    },
+    {
+      "path": "src/int_rvalue_hashmap.c",
+      "sha256": "29c976e1289ac00ed2f56f1c386938edba826ed365c1dca9ac774fb76566ae14"
+    },
+    {
+      "path": "src/json_reader.c",
+      "sha256": "fef8214c866b15487beaa96532a9b8bddbe081b11f6af33be4fa72d5c6f34f5e"
+    },
+    {
+      "path": "src/json_writer.c",
+      "sha256": "a33e53c49d9b293fed42f12a726b80924d052c8a8037bffda2bf5593db58de60"
+    },
+    {
+      "path": "src/log.c",
+      "sha256": "5e7ad8b61d6c6c5ac330ec64b5cdaefbe916977e1b7fea9cc57be6728654598a"
+    },
+    {
+      "path": "src/loop.c",
+      "sha256": "955228a00c127f05a16aba1a743d21680224435b677ad052c321ca19e3490f1f"
+    },
+    {
+      "path": "src/noop_audio_system.c",
+      "sha256": "87ea9fb5ca6ffc2f778c88535f0436f1ae18881dc4892745c9990619de74290c"
+    },
+    {
+      "path": "src/noop_file_system.c",
+      "sha256": "3ff53d5cf1bd8c6eb46ced31a88550241c32012027a48431309b71c4b61aad29"
+    },
+    {
+      "path": "src/noop_renderer.c",
+      "sha256": "21ecce2e77bac1e75d3234031723167cbce8eb965863dff29e48fe59f971450a"
+    },
+    {
+      "path": "src/overlay_file_system.c",
+      "sha256": "50c390316f259fef4b508c28b76b526c7af5861c94b1d39a975c3fbf25f05f28"
+    },
+    {
+      "path": "src/profiler.c",
+      "sha256": "bcab9f72de82db0d53b61f743888c65bed0701252dc09a3bdc23fa126999dea9"
+    },
+    {
+      "path": "src/random.c",
+      "sha256": "6b84ff57d582cf0b1854a56cf29cedd4b07ec2c7110537bfb9238b9d700882f9"
+    },
+    {
+      "path": "src/runner.c",
+      "sha256": "1f6c6becf53a1df2311d13453e0717a3dc60458adcefd278b1e08fa96f3b8d61"
+    },
+    {
+      "path": "src/runner_gamepad.c",
+      "sha256": "8e1b397bfb623bd576a176436955d7b2a1587658c1268e9d01556d8dddf22def"
+    },
+    {
+      "path": "src/runner_keyboard.c",
+      "sha256": "697fa1850182f906489f8158ab8603d93aa9e8803a40c908bec5db9acb1fa7b0"
+    },
+    {
+      "path": "src/runner_mouse.c",
+      "sha256": "3c48ae419a4324732b6a18a468075645d43825b82d114687589ee5e2dd1c8e12"
+    },
+    {
+      "path": "src/spatial_grid.c",
+      "sha256": "984e99e02dec41f0c81a3e232a370b4111cfd5be6fcf3d2ad00260f6f8d0b02b"
+    },
+    {
+      "path": "src/stb_ds.c",
+      "sha256": "8e9161e981f3bb22fff114e0193a517f292aa1d1ed716d0558510a62fba048e1"
+    },
+    {
+      "path": "src/string_builder.c",
+      "sha256": "ec9770e5b71c79de6011ebfbb2b04b28387503d4f593d161a1a4eea3a8031e19"
+    },
+    {
+      "path": "src/vm.c",
+      "sha256": "6030ef3e2dbdff0b60b35379b11b78ebb9fe36066f14e25faae45876db5242bb"
+    },
+    {
+      "path": "src/vm_builtins.c",
+      "sha256": "28731ccfed8569cd85eac2c4194cadce3853d2e7228ca863034beb1496599d4f"
+    },
+    {
+      "path": "src/image/image_decoder.c",
+      "sha256": "08c4bd93e8bee4cb54c5aaceed26ccceb0a877aa772757a5bbbf9f58fc38e70c"
+    },
+    {
+      "path": "src/debug_font/debug_font.c",
+      "sha256": "41a5fbc573178f91e8fad68a521261b899efa1e65bc4e78608b7291fdbc43a51"
+    },
+    {
+      "path": "src/debug_font/debug_font_4bpp.c",
+      "sha256": "6fe08fa8fa7a29d7f902fd3207d6eb31bbf035e8c600924d1f461c3716d03bd4"
+    },
+    {
+      "path": "src/sw_renderer/atlas.c",
+      "sha256": "930f39edb5e06544402dc80307451b56ac0d936c0a81655239242e1fbd00fd8c"
+    },
+    {
+      "path": "src/sw_renderer/sw_renderer.c",
+      "sha256": "f61ca386fae1295ca027a56059aacb0165b30e94bcb3672803c882bd3512ac49"
+    },
+    {
+      "path": "vendor/bzip2/bz_internal_error.c",
+      "sha256": "44532dbd67aa883543916450b62101b79e16a47f6187ff8af3311768f458ec00"
+    },
+    {
+      "path": "vendor/bzip2/bzlib.c",
+      "sha256": "974c825b4b5dd9a4ace1ad528a421344da60c134b842ed0b913077523b268b8d"
+    },
+    {
+      "path": "vendor/bzip2/crctable.c",
+      "sha256": "2fb7a564629386456e731f431a5cf4f5026747bace4cd10be8f5ecf082066a92"
+    },
+    {
+      "path": "vendor/bzip2/decompress.c",
+      "sha256": "94b5929f9482f438eb907ad2b4caf63f681fd66829d8e939e4d2cc982ad29504"
+    },
+    {
+      "path": "vendor/bzip2/huffman.c",
+      "sha256": "bdeb45f3f535546a672811b68aa87cc58fd395b28ecebc34fa3566a656a4d1d1"
+    },
+    {
+      "path": "vendor/bzip2/randtable.c",
+      "sha256": "407054ca6f54cd737dbc26ceb6b7874b55a0fcff86c2eb23cbec2fbdbb884815"
+    },
+    {
+      "path": "vendor/miniz/miniz.c",
+      "sha256": "f23204efee2bfaffb72a974d2e28c64c3c1d9787144b5c5890f129c465e467bd"
+    },
+    {
+      "path": "vendor/miniz/miniz_tdef.c",
+      "sha256": "85b93205232d51d092f24041934d951f11f9edc02df1f475e8ceb7b281a1e7f6"
+    },
+    {
+      "path": "vendor/miniz/miniz_tinfl.c",
+      "sha256": "2296ebd21ef9af5ebbefd5b454d4bb67d8fb4af2d24945e7fb32114374f75a76"
+    },
+    {
+      "path": "src/physics/physics.c",
+      "sha256": "a0022f574ee63139d370b3087e5b60eadd383260b15406b5b334b64f6a73063d"
+    },
+    {
+      "path": "src/physics/disabled/physics_disabled.c",
+      "sha256": "b65eaed00b3fde2e4f93e056cace4e2cf212e1d56bb5319b1c1908ac9c2ae96b"
+    },
+    {
+      "path": "src/video/null_video.c",
+      "sha256": "9a6ffe9f059ab022c4208b198092bd9e9416ed11f7f34cfdea421a07620c1454"
+    },
+    {
+      "path": "src/cli/args.c",
+      "sha256": "6be3363bcf62776495adcf00af75c27f4c5ae9f99df49cfec732a911e1d2d000"
+    },
+    {
+      "path": "src/cli/stb_impl.c",
+      "sha256": "aa100e4fbcf63c19dce584d9f8270c3bea724d3bd60d2452f67e0e36090223b2"
+    },
+    {
+      "path": "vendor/md5/md5.c",
+      "sha256": "2160e4aafee0640785f80de411e253f46973c7ac52f61dfa199dc2727a926116"
+    },
+    {
+      "path": "vendor/sha1/sha1.c",
+      "sha256": "049dc7e19390f9902a8cda84a97bf1fb7a492b7f8ed9b07f728728c47c072158"
+    },
+    {
+      "path": "vendor/base64/base64.c",
+      "sha256": "a6d9cfbe7fa03a40407380c6e808bccca79b455a8bb0e46179c6a7b0fba93bd8"
+    },
+    {
+      "path": "adapter/data.c",
+      "sha256": "26a36a0968c0944883acd293253a26e666b0878a0d33bca59cc9f57f2ebd29d6"
+    },
+    {
+      "path": "adapter/input.c",
+      "sha256": "71dc78149783395900bc3bf46339b9b18b2e8b370210143bb04bc0f03523e2b9"
+    },
+    {
+      "path": "adapter/main.c",
+      "sha256": "3b3b91232b28dbbb59696f2b6f6611c6bb239154fca5fbf977386a0f67a35ddf"
+    },
+    {
+      "path": "adapter/platform.c",
+      "sha256": "4f84cefe994030305e750fa1c16377f8ed3245a65e3789af09ff653aae26eee7"
+    },
+    {
+      "path": "adapter/prep_lock.c",
+      "sha256": "cfdbf8690e555c1c6cbf3f2e290ff37f454fe7e0d75d58863c2495ccecd163d4"
+    },
+    {
+      "path": "adapter/prepare.c",
+      "sha256": "ecedc6e7c3174ae7b4f6ba6731d90c993fce6f9d6e84f09a2d550756a01c784f"
+    },
+    {
+      "path": "adapter/selftest.c",
+      "sha256": "5e209bd6857c24dc9c2c30471f2cdf60122196588cb69607f7b4870285d84459"
+    },
+    {
+      "path": "adapter/text.c",
+      "sha256": "a0344595b63b2c67e95ec20f8a77da75d306598668bc5a7350aa50c2e492b439"
+    },
+    {
+      "path": "audio/ma_audio_system.c",
+      "sha256": "ee026d1270c25906fe8cdba4a28fcdf31c0194bcb2bb883f8f2fbe100ebb5ccc"
+    }
+  ],
+  "upstream_include_dirs": [
+    "src",
+    "src/image",
+    "src/video",
+    "src/audio",
+    "src/debug_font",
+    "src/sw_renderer",
+    "vendor/stb/ds",
+    "vendor/stb/image",
+    "vendor/stb/vorbis",
+    "vendor/bzip2",
+    "vendor/md5",
+    "vendor/miniz",
+    "vendor/sha1",
+    "vendor/base64"
+  ],
+  "native_headers": {
+    "gamepad-state.h": "e81658dab7241fb717a770e4c17fb399fc7fd127af9bd73cb49dc2bfef3df258",
+    "font8x8_basic.h": "7ce6dea6d72c8a4a7046c709565b90fc89e5c16323e7f677e71781e103d110ab"
+  },
+  "audio_outputs": {
+    "ma_audio_system.c": "ee026d1270c25906fe8cdba4a28fcdf31c0194bcb2bb883f8f2fbe100ebb5ccc",
+    "ma_audio_system.h": "3322de9def0b8386a0b623cf19cbbe73a21f18d32bfa26ff5a3f3715eff2db3b"
+  },
+  "release_engine_sha256": "1a0754e12f32c6a8e72b75c4f5968e0534037bd7f31e09702e0bafdd11d07561",
+  "qualified_unstripped_sha256": "1ed06162afb1c593776d723870499a98ceeefac5c5c72e4c16d3a8be905619f4"
+}

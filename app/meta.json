@@ -1,0 +1,9 @@
+{
+  "id": "org.lilsmoke.undertale",
+  "name": "Undertale-LilSmoke",
+  "version": "0.0.1",
+  "author": "Jos\u00e9 Pilas; FroggyTale / Butterscotch contributors",
+  "description": "Experimental CPU-only Undertale runner with SDL audio. Bring original/data.win and OGGs; first launch prepares a cached atlas.",
+  "architecture": "mipsel-linux-musl",
+  "license": "AGPL-3.0-only"
+}
